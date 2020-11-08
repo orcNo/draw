@@ -1,0 +1,1533 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-15 16:42-0700\n"
+"PO-Revision-Date: 2017-12-09 04:22+0000\n"
+"Last-Translator: Teuku Surya <tsuryafajri@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1512793322.000000\n"
+
+#. Response to Black (0, 0, 0) color selected
+#: ../colors.h:86
+msgid "Black!"
+msgstr "Hitam!"
+
+#. Response to Dark grey (128, 128, 128) color selected
+#: ../colors.h:89
+msgid "Dark grey! Some people spell it “dark gray”."
+msgstr "Abu-abu gelap!"
+
+#. Response to Light grey (192, 192, 192) color selected
+#: ../colors.h:92
+msgid "Light grey! Some people spell it “light gray”."
+msgstr "Abu-abu muda!"
+
+#. Response to White (255, 255, 255) color selected
+#: ../colors.h:95
+msgid "White!"
+msgstr "Putih!"
+
+#. Response to Red (255, 0, 0) color selected
+#: ../colors.h:98
+msgid "Red!"
+msgstr "Merah!"
+
+#. Response to Orange (255, 128, 0) color selected
+#: ../colors.h:101
+msgid "Orange!"
+msgstr "Oranye!"
+
+#. Response to Yellow (255, 255, 0) color selected
+#: ../colors.h:104
+msgid "Yellow!"
+msgstr "Kuning!"
+
+#. Response to Light green (160, 228, 128) color selected
+#: ../colors.h:107
+msgid "Light green!"
+msgstr "Hijau terang!"
+
+#. Response to Dark green (33, 148, 70) color selected
+#: ../colors.h:110
+msgid "Dark green!"
+msgstr "Hijau tua!"
+
+#. Response to "Sky" blue (138, 168, 205) color selected
+#: ../colors.h:113
+msgid "Sky blue!"
+msgstr "Biru langit!"
+
+#. Response to Blue (50, 100, 255) color selected
+#: ../colors.h:116
+msgid "Blue!"
+msgstr "Biru!"
+
+#. Response to Lavender (186, 157, 255) color selected
+#: ../colors.h:119
+msgid "Lavender!"
+msgstr "Lavender!"
+
+#. Response to Purple (128, 0, 128) color selected
+#: ../colors.h:122
+msgid "Purple!"
+msgstr "Ungu!"
+
+#. Response to Pink (255, 165, 211) color selected
+#: ../colors.h:125
+msgid "Pink!"
+msgstr "Merah muda!"
+
+#. Response to Brown (128, 80, 0) color selected
+#: ../colors.h:128
+msgid "Brown!"
+msgstr "Coklat!"
+
+#. Response to Tan (226, 189, 166) color selected
+#: ../colors.h:131
+msgid "Tan!"
+msgstr "Tan!"
+
+#. Response to Beige (247, 228, 219) color selected
+#: ../colors.h:134
+msgid "Beige!"
+msgstr "Krem!"
+
+#. First, the blacklist. We list font families that can crash Tux Paint
+#. via bugs in the SDL_ttf library. We also test fonts to be sure that
+#. they have both uppercase and lowercase letters. Note that we do not
+#. test for "Aa", because it is OK if uppercase and lowercase are the
+#. same (but not nice -- such fonts get a low score later).
+#.
+#. Most locales leave the blacklist strings alone: "QX" and "qx"
+#. (it is less destructive to use the scoring strings instead)
+#.
+#. Locales that absolutely require all fonts to have some
+#. extra characters should use "QX..." and "qx...", where "..."
+#. are some characters you absolutely require in all fonts.
+#.
+#. Locales with absolutely NO use for ASCII may use "..." and "...",
+#. where "..." are some characters you absolutely require in
+#. all fonts. This would be the case for a locale in which it is
+#. impossible for a user to type ASCII letters.
+#.
+#. Most translators should use scoring instead.
+#: ../dirwalk.c:177
+msgid "qx"
+msgstr "qx"
+
+#: ../dirwalk.c:177
+msgid "QX"
+msgstr "QX"
+
+#. TODO: weight specification
+#. Now we score fonts to ensure that the best ones will be placed at
+#. the top of the list. The user will see them first. This sorting is
+#. especially important for users who have scroll buttons disabled.
+#. Translators should do whatever is needed to put crummy fonts last.
+#. distinct uppercase and lowercase (e.g., 'o' vs. 'O')
+#: ../dirwalk.c:202
+msgid "oO"
+msgstr "oO"
+
+#. common punctuation (e.g., '?', '!', '.', ',', etc.)
+#: ../dirwalk.c:205
+msgid ",.?!"
+msgstr ",.?!"
+
+# | msgid "`\\%_@$~#{}<>^&*"
+#. uncommon punctuation (e.g., '@', '#', '*', etc.)
+#: ../dirwalk.c:208
+msgid "`%_@$~#{<(^&*"
+msgstr "`%_@$~#{<(^&*"
+
+#. digits (e.g., '0', '1' and '7')
+#: ../dirwalk.c:211
+msgid "017"
+msgstr "017"
+
+#. distinct circle-like characters (e.g., 'O' (capital oh) vs. '0' (zero))
+#: ../dirwalk.c:214
+msgid "O0"
+msgstr "O0"
+
+#. distinct line-like characters (e.g., 'l' (lowercase elle) vs. '1' (one) vs. 'I' (capital aye))
+#: ../dirwalk.c:217
+msgid "1Il|"
+msgstr "1Il|"
+
+#: ../dirwalk.c:221
+msgid "<1>spare-1a"
+msgstr "<1>spare-1a"
+
+#: ../dirwalk.c:222
+msgid "<1>spare-1b"
+msgstr "<1>spare-1b"
+
+#: ../dirwalk.c:223
+msgid "<9>spare-9a"
+msgstr "<9>spare-9a"
+
+#: ../dirwalk.c:224
+msgid "<9>spare-9b"
+msgstr "<9>spare-9b"
+
+#. Congratulations #1
+#: ../great.h:37
+msgid "Great!"
+msgstr "Bagus!"
+
+#. Congratulations #2
+#: ../great.h:40
+msgid "Cool!"
+msgstr "Hebat!"
+
+#. Congratulations #3
+#: ../great.h:43
+msgid "Keep it up!"
+msgstr "Teruskan!"
+
+#. Congratulations #4
+#: ../great.h:46
+msgid "Good job!"
+msgstr "Kerja yang bagus!"
+
+#. Input Method: English mode
+#: ../im.c:74
+msgid "English"
+msgstr "Inggris"
+
+#. Input Method: Japanese Romanized Hiragana mode
+#: ../im.c:77
+msgid "Hiragana"
+msgstr "Hiragana"
+
+#. Input Method: Japanese Romanized Katakana mode
+#: ../im.c:80
+msgid "Katakana"
+msgstr "Katakana"
+
+#. Input Method: Korean Hangul 2-Bul mode
+#: ../im.c:83
+msgid "Hangul"
+msgstr "Hangul"
+
+#. Input Method: Thai mode
+#: ../im.c:86
+msgid "Thai"
+msgstr "Thailand"
+
+#. Input Method: Traditional Chinese mode
+#: ../im.c:89
+msgid "ZH_TW"
+msgstr "ZH_TW"
+
+#. Square shape tool (4 equally-lengthed sides at right angles)
+#: ../shapes.h:234 ../shapes.h:235
+msgid "Square"
+msgstr "Persegi"
+
+#. Rectangle shape tool (4 sides at right angles)
+#: ../shapes.h:238 ../shapes.h:239
+msgid "Rectangle"
+msgstr "Kotak"
+
+#. Circle shape tool (X radius and Y radius are the same)
+#: ../shapes.h:242 ../shapes.h:243
+msgid "Circle"
+msgstr "Lingkaran"
+
+#. Ellipse shape tool (X radius and Y radius may differ)
+#: ../shapes.h:246 ../shapes.h:247
+msgid "Ellipse"
+msgstr "Elips"
+
+#. Triangle shape tool (3 sides)
+#: ../shapes.h:250 ../shapes.h:251
+msgid "Triangle"
+msgstr "Segitiga"
+
+#. Pentagone shape tool (5 sides)
+#: ../shapes.h:254 ../shapes.h:255
+msgid "Pentagon"
+msgstr "Segilima"
+
+#. Rhombus shape tool (4 sides, not at right angles)
+#: ../shapes.h:258 ../shapes.h:259
+msgid "Rhombus"
+msgstr "Rombus"
+
+#. Octagon shape tool (8 sides)
+#: ../shapes.h:262 ../shapes.h:263
+msgid "Octagon"
+msgstr "Segi Delapan"
+
+#. Triangle star (3 points star)
+#. Rhombus star (4 points star)
+#. Pentagone star (5 points star)
+#: ../shapes.h:266 ../shapes.h:269 ../shapes.h:272 ../shapes.h:275
+#: ../shapes.h:278 ../shapes.h:281
+msgid "Star"
+msgstr "Bintang"
+
+#. Description of a square
+#: ../shapes.h:289 ../shapes.h:290
+msgid "A square is a rectangle with four equal sides."
+msgstr "Sebuah kotak adalah sebuah segiempat dengan empat sisi yang sama."
+
+#. Description of a rectangle
+#: ../shapes.h:293 ../shapes.h:294
+msgid "A rectangle has four sides and four right angles."
+msgstr "Sebuah kotak memiliki empat sisi dan empat sudut."
+
+#. Description of a circle
+#: ../shapes.h:297 ../shapes.h:298
+msgid ""
+"A circle is a curve where all points have the same distance from the center."
+msgstr ""
+"Sebuah lingkaran adalah sebuah kurva dimana seluruh titik memiliki jarak "
+"yang sama dari pusatnya."
+
+#. Description of an ellipse
+#: ../shapes.h:301 ../shapes.h:302
+msgid "An ellipse is a stretched circle."
+msgstr "Sebuah elips adalah lingkaran yang ditarik."
+
+#. Description of a triangle
+#: ../shapes.h:305 ../shapes.h:306
+msgid "A triangle has three sides."
+msgstr "Sebuah segitiga memiliki tiga sisi."
+
+#. Description of a pentagon
+#: ../shapes.h:309 ../shapes.h:310
+msgid "A pentagon has five sides."
+msgstr "Sebuah segilima memiliki lima sisi."
+
+#. Description of a rhombus
+#: ../shapes.h:313 ../shapes.h:314
+msgid "A rhombus has four equal sides, and opposite sides are parallel."
+msgstr ""
+"Sebuah rombus memiliki empat sisi sama, dan sisi berlawanan adalah paralel."
+
+#. Description of an octagon
+#: ../shapes.h:317 ../shapes.h:318
+msgid "An octagon has eight equal sides."
+msgstr "Sebuah Segi delapan memiliki delapan sisi yang sama."
+
+#: ../shapes.h:320 ../shapes.h:321
+msgid "A star with 3 points."
+msgstr "Sebuah bintang dengan 3 point."
+
+#: ../shapes.h:322 ../shapes.h:323
+msgid "A star with 4 points."
+msgstr "Sebuah bintang dengan 4 point."
+
+#: ../shapes.h:324 ../shapes.h:325
+msgid "A star with 5 points."
+msgstr "Sebuah bintang dengan 5 point."
+
+#: ../shapes.h:372
+msgid "Draw shapes from the center."
+msgstr ""
+
+#: ../shapes.h:373
+msgid "Draw shapes from a corner."
+msgstr ""
+
+#. Title of tool selector (buttons down the left)
+#: ../titles.h:56
+msgid "Tools"
+msgstr "Tool"
+
+#. Title of color palette (buttons across the bottom)
+#: ../titles.h:59
+msgid "Colors"
+msgstr "Warna"
+
+#. Title of brush selector (buttons down the right for paint and line tools)
+#: ../titles.h:62
+msgid "Brushes"
+msgstr "Kuas"
+
+#. Title of eraser selector (buttons down the right for eraser tool)
+#: ../titles.h:65
+msgid "Erasers"
+msgstr "Penghapus"
+
+#. Title of stamp selector (buttons down the right for stamps tool)
+#: ../titles.h:68
+msgid "Stamps"
+msgstr "Stempel"
+
+#. Title of shape selector (buttons down the right for shapes tool)
+#. Shape creation tool (square, circle, etc.)
+#: ../titles.h:71 ../tools.h:71
+msgid "Shapes"
+msgstr "Bentuk"
+
+#. Title of font selector (buttons down the right for text and label tools)
+#: ../titles.h:74
+msgid "Letters"
+msgstr "Surat"
+
+#. Title of magic tool selector (buttons down the right for magic (effect plugin) tool)
+#. "Magic" effects tools (blur, flip image, etc.)
+#: ../titles.h:77 ../tools.h:83
+msgid "Magic"
+msgstr "Magic"
+
+#. Freehand painting tool
+#: ../tools.h:62
+msgid "Paint"
+msgstr "Gambar"
+
+#. Stamp tool (aka Rubber Stamps)
+#: ../tools.h:65
+msgid "Stamp"
+msgstr "Stempel"
+
+#. Line drawing tool
+#: ../tools.h:68
+msgid "Lines"
+msgstr "Garis"
+
+#. Text tool
+#: ../tools.h:74
+msgid "Text"
+msgstr "Teks"
+
+#. Label tool
+#: ../tools.h:77
+msgid "Label"
+msgstr "Label"
+
+#. Fill tool
+#: ../tools.h:80
+msgid "Fill"
+msgstr "Isi"
+
+#. Undo last action
+#: ../tools.h:86
+msgid "Undo"
+msgstr "Undo"
+
+#. Redo undone action
+#: ../tools.h:89
+msgid "Redo"
+msgstr "Redo"
+
+#. Eraser tool
+#: ../tools.h:92
+msgid "Eraser"
+msgstr "Penghapus"
+
+#. Start a new picture
+#: ../tools.h:95
+msgid "New"
+msgstr "Baru"
+
+#. Open a saved picture
+#. buttons for the file open dialog
+#. Open dialog: 'Open' button, to load the selected picture
+#: ../tools.h:98 ../tuxpaint.c:7920
+msgid "Open"
+msgstr "Buka"
+
+#. Save the current picture
+#: ../tools.h:101
+msgid "Save"
+msgstr "Simpan"
+
+#. Print the current picture
+#: ../tools.h:104
+msgid "Print"
+msgstr "Cetak"
+
+#. Quit/exit Tux Paint application
+#: ../tools.h:107
+msgid "Quit"
+msgstr "Keluar"
+
+#. Paint tool instructions
+#: ../tools.h:115
+msgid "Pick a color and a brush shape to draw with."
+msgstr "Pilih sebuah warna dan bentuk kuas untuk menggambar."
+
+#. Stamp tool instructions
+#: ../tools.h:118
+msgid "Pick a picture to stamp around your drawing."
+msgstr "Pilih sebuah gambar untuk stempel gambarmu."
+
+#. Line tool instructions
+#: ../tools.h:121
+msgid "Click to start drawing a line. Let go to complete it."
+msgstr "Klik untuk mulai menggambar garis. Lepaskan untuk menyelesaikannya."
+
+#: ../tools.h:125
+#, fuzzy
+#| msgid ""
+#| "Pick a shape. Click to pick the center, drag, then let go when it is the "
+#| "size you want. Move around to rotate it, and click to draw it."
+msgid ""
+"Pick a shape. Click to start drawing, drag, and let go when it is the size "
+"you want. Move around to rotate it, and click to draw it."
+msgstr ""
+"Pilih sebuah bentuk. Klik untuk memilih pusat, tarik, lalu lepaskan saat "
+"ukurannya telah sesuai keinginan kamu Pindahkan untuk memutarnya, dan klik "
+"untuk menggambar."
+
+# | msgid ""
+# | "Choose a style of text. Click on your drawing and you can start typing."
+#: ../tools.h:129
+msgid ""
+"Choose a style of text. Click on your drawing and you can start typing. "
+"Press [Enter] or [Tab] to complete the text."
+msgstr ""
+"Pilih gaya teks. Klik pada gambar kamu dan kamu dapat langsung mengetik. "
+"Tekan [Enter] atau [Tab] untuk menyelesaikan teks."
+
+# | msgid ""
+# | "Choose a style of text. Click on your drawing and you can start typing."
+#: ../tools.h:133
+msgid ""
+"Choose a style of text. Click on your drawing and you can start typing. "
+"Press [Enter] or [Tab] to complete the text. By using the selector button "
+"and clicking an existing label, you can move it, edit it and change its text "
+"style."
+msgstr ""
+"Pilih gaya teks. Klik pada gambar kamu dan kamu dapat langsung mengetik. "
+"Tekan [Enter] atau [Tab] untuk menyelesaikan teks. Dengan menggunkan tombol "
+"selector dan mengklik label yang ada, anda dapat memindahkannya, mengeditnya "
+"dan merubah gaya teksnya."
+
+#. Fill tool instructions
+#: ../tools.h:136
+msgid "Click in the picture to fill that area with color."
+msgstr "Klik dalam gambar untuk mengisi area dengan warna."
+
+#. Magic tool instruction
+#: ../tools.h:139
+msgid "Pick a magical effect to use on your drawing!"
+msgstr "Pilih efek magis untuk gambar kamu!"
+
+#. Response to 'undo' action
+#: ../tools.h:142
+msgid "Undo!"
+msgstr "Undo!"
+
+#. Response to 'redo' action
+#: ../tools.h:145
+msgid "Redo!"
+msgstr "Redo!"
+
+#. Eraser tool
+#: ../tools.h:148
+msgid "Eraser!"
+msgstr "Penghapus!"
+
+#. Response to 'start a new image' action
+#: ../tools.h:151
+msgid "Pick a color or picture with which to start a new drawing."
+msgstr "Pilih warna atau gambar yang digunakan untuk membuat gambar baru."
+
+#. Response to 'open' action (while file dialog is being constructed)
+#: ../tools.h:154
+msgid "Open…"
+msgstr "Buka..."
+
+#. Response to 'save' action
+#: ../tools.h:157
+msgid "Your image has been saved!"
+msgstr "Gambar kamu telah disimpan!"
+
+#. Response to 'print' action (while printing, or print dialog is being used)
+#: ../tools.h:160
+msgid "Printing…"
+msgstr "Mencetak..."
+
+#. Response to 'quit' (exit) action
+#: ../tools.h:163
+msgid "Bye bye!"
+msgstr "Selamat tinggal!"
+
+#. Instruction while using Line tool (after click, before release)
+#: ../tools.h:167
+msgid "Let go of the button to complete the line."
+msgstr "Lepaskan tombol untuk menyelesaikan garis."
+
+#. Instruction while using Shape tool (after first click, before release)
+#: ../tools.h:170
+msgid "Hold the button to stretch the shape."
+msgstr "Tahan tombol untuk memperbesar bentuk."
+
+#. Instruction while finishing Shape tool (after release, during rotation step before second click)
+#: ../tools.h:173
+msgid "Move the mouse to rotate the shape. Click to draw it."
+msgstr "Pindahkan mouse untuk merotasi bentuk. Klik untuk menggambarnya."
+
+#. Notification that 'New' action was aborted (current image would have been lost)
+#: ../tools.h:176
+msgid "OK then… Let’s keep drawing this one!"
+msgstr "OK...Mari terus menggambar yang ini!"
+
+#. Prompt to confirm user wishes to quit
+#: ../tuxpaint.c:2134
+msgid "Do you really want to quit?"
+msgstr "Kamu benar-benar ingin keluar?"
+
+#. Quit prompt positive response (quit)
+#: ../tuxpaint.c:2137
+msgid "Yes, I’m done!"
+msgstr "Ya, Saya Selesai"
+
+#. Quit prompt negative response (don't quit)
+#: ../tuxpaint.c:2140 ../tuxpaint.c:2167
+msgid "No, take me back!"
+msgstr "Tidak, Kembali Ke Sebelumnya!"
+
+#. Current picture is not saved; user is quitting
+#: ../tuxpaint.c:2144
+msgid "If you quit, you’ll lose your picture! Save it?"
+msgstr "Jika kamu keluar, kamu akan kehilangan gambar! Simpan?"
+
+#: ../tuxpaint.c:2145 ../tuxpaint.c:2150
+msgid "Yes, save it!"
+msgstr "Ya, Simpan!"
+
+#: ../tuxpaint.c:2146 ../tuxpaint.c:2151
+msgid "No, don’t bother saving!"
+msgstr "Tidak, Tidak perlu menyimpan!"
+
+#. Current picture is not saved; user is opening another picture
+#: ../tuxpaint.c:2149
+msgid "Save your picture first?"
+msgstr "Simpan gambarmu dulu?"
+
+#. Error opening picture
+#: ../tuxpaint.c:2154
+msgid "Can’t open that picture!"
+msgstr "Tidak dapat membuka gambar itu!"
+
+#. Generic dialog dismissal
+#: ../tuxpaint.c:2157 ../tuxpaint.c:2162 ../tuxpaint.c:2171 ../tuxpaint.c:2178
+#: ../tuxpaint.c:2187 ../tuxpaint.c:2192
+msgid "OK"
+msgstr "OK"
+
+#. Notification that 'Open' dialog has nothing to show
+#: ../tuxpaint.c:2161
+msgid "There are no saved files!"
+msgstr "Tidak ada file tersimpan!"
+
+#. Verification of print action
+#: ../tuxpaint.c:2165
+msgid "Print your picture now?"
+msgstr "Cetak gambarmu sekarang?"
+
+#: ../tuxpaint.c:2166
+msgid "Yes, print it!"
+msgstr "Ya, Cetak itu!"
+
+#. Confirmation of successful (we hope) printing
+#: ../tuxpaint.c:2170
+msgid "Your picture has been printed!"
+msgstr "Gambarmu telah dicetak!"
+
+# | msgid "Your picture has been printed!"
+#. We got an error printing
+#: ../tuxpaint.c:2174
+msgid "Sorry! Your picture could not be printed!"
+msgstr "Maaf! Gambar anda tidak dapat dicetak."
+
+#. Notification that it's too soon to print again (--printdelay option is in effect)
+#: ../tuxpaint.c:2177
+msgid "You can’t print yet!"
+msgstr "Kamu belum dapat mencetak!"
+
+#. Prompt to confirm erasing a picture in the Open dialog
+#: ../tuxpaint.c:2181
+msgid "Erase this picture?"
+msgstr "Hapus gambar ini?"
+
+#: ../tuxpaint.c:2182
+msgid "Yes, erase it!"
+msgstr "Ya, hapus itu!"
+
+#: ../tuxpaint.c:2183
+msgid "No, don’t erase it!"
+msgstr "Tidak, jangan hapus itu!"
+
+#. Reminder that Mouse Button 1 is the button to use in Tux Paint
+#: ../tuxpaint.c:2186
+msgid "Remember to use the left mouse button!"
+msgstr "Ingat untuk menggunakan tombol mouse kiri!"
+
+#. Confirmation of successful (we hope) image export
+#: ../tuxpaint.c:2190
+#, fuzzy
+#| msgid "Your picture has been printed!"
+msgid "Your picture has been exported!"
+msgstr "Gambarmu telah dicetak!"
+
+#: ../tuxpaint.c:2191
+#, fuzzy
+#| msgid "Your picture has been printed!"
+msgid "Your slideshow GIF has been exported!"
+msgstr "Gambarmu telah dicetak!"
+
+# | msgid "Your picture has been printed!"
+#. We got an error exporting
+#: ../tuxpaint.c:2195
+#, fuzzy
+#| msgid "Sorry! Your picture could not be printed!"
+msgid "Sorry! Your picture could not be exported!"
+msgstr "Maaf! Gambar anda tidak dapat dicetak."
+
+# | msgid "Your picture has been printed!"
+#: ../tuxpaint.c:2196
+#, fuzzy
+#| msgid "Sorry! Your picture could not be printed!"
+msgid "Sorry! Your slideshow GIF could not be exported!"
+msgstr "Maaf! Gambar anda tidak dapat dicetak."
+
+#. Slideshow instructions
+#: ../tuxpaint.c:2200
+msgid "Choose the pictures you want, then click “Play”."
+msgstr "Pilih gambar yang kamu inginkan, lalu klik “Play”."
+
+#. Sound has been muted (silenced) via keyboard shortcut
+#: ../tuxpaint.c:2407
+msgid "Sound muted."
+msgstr "Suara diredam."
+
+#. Sound has been unmuted (unsilenced) via keyboard shortcut
+#: ../tuxpaint.c:2412
+msgid "Sound unmuted."
+msgstr "Suara tidak diredam."
+
+#. Wait while Text tool finishes loading fonts
+#: ../tuxpaint.c:3167
+msgid "Please wait…"
+msgstr "Tunggu Sesaat..."
+
+#. Open dialog: 'Erase' button, to erase/deleted the selected picture
+#: ../tuxpaint.c:7923
+msgid "Erase"
+msgstr "Hapus"
+
+#. Open dialog: 'Slides' button, to switch to slide show mode
+#: ../tuxpaint.c:7926
+msgid "Slides"
+msgstr "Slide"
+
+#. Open dialog: 'Export' button, to copy an image to an easily-accessible location
+#: ../tuxpaint.c:7929
+msgid "Export"
+msgstr ""
+
+#. Open dialog: 'Back' button, to dismiss Open dialog without opening a picture
+#: ../tuxpaint.c:7932
+msgid "Back"
+msgstr "Kembali"
+
+#. Slideshow: 'Play' button, to begin a slideshow sequence
+#: ../tuxpaint.c:7935
+msgid "Play"
+msgstr "Play"
+
+#. Slideshow: 'GIF Export' button, to create an animated GIF
+#: ../tuxpaint.c:7938
+msgid "GIF Export"
+msgstr ""
+
+#. Slideshow: 'Next' button, to load next slide (image)
+#: ../tuxpaint.c:7941
+msgid "Next"
+msgstr "Selanjutnya"
+
+#. Label for 'Letters' buttons (font selector, down the right when the Text tool is being used); used to show the difference between font faces
+#: ../tuxpaint.c:8656
+msgid "Aa"
+msgstr "Aa"
+
+#. Admittedly stupid way of determining which keys can be used for
+#. positive and negative responses in dialogs (e.g., [Y] (for 'yes') in English)
+#: ../tuxpaint.c:12069
+msgid "Yes"
+msgstr "Ya"
+
+#: ../tuxpaint.c:12073
+msgid "No"
+msgstr "Tidak"
+
+#. Prompt to ask whether user wishes to save over old version of their file
+#: ../tuxpaint.c:13190
+msgid "Replace the picture with your changes?"
+msgstr "Ganti gambar dengan perubahan yang dilakukan?"
+
+#. Positive response to saving over old version
+#. (like a 'File:Save' action in other applications)
+#: ../tuxpaint.c:13194
+msgid "Yes, replace the old one!"
+msgstr "Ya, gantikan yang lama!"
+
+#. Negative response to saving over old version (saves a new image)
+#. (like a 'File:Save As...' action in other applications)
+#: ../tuxpaint.c:13198
+msgid "No, save a new file!"
+msgstr "Tidak, Simpan sebuah berkas baru!"
+
+#. Let user choose an image:
+#. Instructions for 'Open' file dialog
+#: ../tuxpaint.c:14454
+msgid "Choose the picture you want, then click “Open”."
+msgstr "Pilih gambar yang kamu inginkan, lalu klik \"Open\"."
+
+#. None selected? Too dangerous to automatically select all (like we do for slideshow playback).
+#. Only 1 selected?  No point in saving as GIF.
+#.
+#: ../tuxpaint.c:15880
+msgid "Select 2 or more drawings to turn into an animated GIF."
+msgstr ""
+
+#: ../tuxpaint.c:23539
+msgid "Select a color from your drawing."
+msgstr "Pilih warna dari gambar anda."
+
+#: ../tuxpaint.c:23551
+msgid "Pick a color."
+msgstr "Pilih warna."
+
+#: ../tuxpaint.desktop.in.h:1
+msgid "Tux Paint"
+msgstr "Tux Paint"
+
+#: ../tuxpaint.desktop.in.h:2
+msgid "Drawing program"
+msgstr "Program gambar"
+
+#: ../tuxpaint.desktop.in.h:3
+msgid "A drawing program for children."
+msgstr "Adalah sebuah program gambar untuk anak-anak."
+
+#: ../../magic/src/alien.c:68
+msgid "Color Shift"
+msgstr "Mengubah Warna"
+
+#: ../../magic/src/alien.c:72
+msgid "Click and drag the mouse to change the colors in parts of your picture."
+msgstr "Klik dan gerakkan mouse untuk merubah warna pada bagian gambar anda."
+
+#: ../../magic/src/alien.c:73
+msgid "Click to change the colors in your entire picture."
+msgstr "Klik untuk merubah warna seluruh gambar anda."
+
+#: ../../magic/src/blind.c:116
+msgid "Blind"
+msgstr "Blind"
+
+#: ../../magic/src/blind.c:123
+msgid ""
+"Click towards the edge of your picture to pull window blinds over it. Move "
+"perpendicularly to open or close the blinds."
+msgstr ""
+"Klik pada pinggir gambar anda untuk menarik window blind diatasnya. Gerakkan "
+"secara tegak lurus untuk membuka atau menutup blind."
+
+#: ../../magic/src/blocks_chalk_drip.c:129
+msgid "Blocks"
+msgstr "Blok"
+
+#: ../../magic/src/blocks_chalk_drip.c:131
+msgid "Chalk"
+msgstr "Kapur"
+
+#: ../../magic/src/blocks_chalk_drip.c:133
+msgid "Drip"
+msgstr "Drip"
+
+#: ../../magic/src/blocks_chalk_drip.c:142
+msgid "Click and drag the mouse around to make the picture blocky."
+msgstr "Klik dan pindah mouse ke sekitar untuk membuat gambar berblok."
+
+#: ../../magic/src/blocks_chalk_drip.c:144
+msgid ""
+"Click and drag the mouse around to turn the picture into a chalk drawing."
+msgstr ""
+"Klik dan pindahkan mouse ke sekitar untuk merubah gambar menjadi gambar "
+"dengan kapur."
+
+#: ../../magic/src/blocks_chalk_drip.c:146
+msgid "Click and drag the mouse around to make the picture drip."
+msgstr "Klik dan pindahkan mouse ke sekitar untuk membuat gambar drip."
+
+#: ../../magic/src/blur.c:80
+msgid "Blur"
+msgstr "Blur"
+
+#: ../../magic/src/blur.c:84
+msgid "Click and drag the mouse around to blur the image."
+msgstr "Klik dan gerakkan mouse di sekitar gambar untuk mengaburkan gambar."
+
+#: ../../magic/src/blur.c:85
+msgid "Click to blur the entire image."
+msgstr "Klik untuk mengaburkan seluruh gambar."
+
+#. Both are named "Bricks", at the moment:
+#: ../../magic/src/bricks.c:120
+msgid "Bricks"
+msgstr "Balok"
+
+#: ../../magic/src/bricks.c:127
+msgid "Click and drag to draw large bricks."
+msgstr "Klik dan pindahkan untuk menggambar balok besar."
+
+#: ../../magic/src/bricks.c:129
+msgid "Click and drag to draw small bricks."
+msgstr "Klik dan pindahkan untuk menggambar balok kecil."
+
+#: ../../magic/src/calligraphy.c:124
+msgid "Calligraphy"
+msgstr "Kaligrafi"
+
+#: ../../magic/src/calligraphy.c:131
+msgid "Click and drag the mouse around to draw in calligraphy."
+msgstr "Klik dan gerakkan mouse di sekitar gambar untuk mengambar kaligrafi."
+
+#: ../../magic/src/cartoon.c:103
+msgid "Cartoon"
+msgstr "Kartun"
+
+#: ../../magic/src/cartoon.c:109
+msgid "Click and drag the mouse around to turn the picture into a cartoon."
+msgstr ""
+"Klik dan pindahkan mouse ke sekitar untuk mengubah gambar ke sebuah kartun."
+
+#: ../../magic/src/confetti.c:83
+msgid "Confetti"
+msgstr "Konfeti"
+
+#: ../../magic/src/confetti.c:88
+msgid "Click to throw confetti!"
+msgstr "Klik untuk melempar konfeti!"
+
+#: ../../magic/src/distortion.c:134
+msgid "Distortion"
+msgstr "Distorsi"
+
+#: ../../magic/src/distortion.c:143
+msgid "Click and drag the mouse to cause distortion in your picture."
+msgstr "Klik dan tarik mouse untuk menimbulkan distorsi pada gambar anda."
+
+#: ../../magic/src/emboss.c:101
+msgid "Emboss"
+msgstr "Emboss"
+
+#: ../../magic/src/emboss.c:107
+msgid "Click and drag the mouse to emboss the picture."
+msgstr "Klik dan tarik mouse untuk meng-emboss gambar."
+
+#: ../../magic/src/fade_darken.c:114
+msgid "Lighten"
+msgstr "Terangkan"
+
+#: ../../magic/src/fade_darken.c:116
+msgid "Darken"
+msgstr "Gelapkan"
+
+#: ../../magic/src/fade_darken.c:127
+msgid "Click and drag the mouse to lighten parts of your picture."
+msgstr ""
+"Klik dan gerakkan mouse di sekitar gambar untuk menerangkan bagian dari "
+"gambar anda."
+
+#: ../../magic/src/fade_darken.c:129
+msgid "Click to lighten your entire picture."
+msgstr "Klik untuk menerangkan seluruh gambar anda."
+
+#: ../../magic/src/fade_darken.c:134
+msgid "Click and drag the mouse to darken parts of your picture."
+msgstr "Klik dan pindahkan mouse untuk menggelapkan bagian dari gambar anda."
+
+#: ../../magic/src/fade_darken.c:136
+msgid "Click to darken your entire picture."
+msgstr "Klik untuk menggelapkan seluruh gambar."
+
+#: ../../magic/src/fisheye.c:101
+msgid "Fisheye"
+msgstr "Fisheye"
+
+#: ../../magic/src/fisheye.c:106
+msgid "Click on part of your picture to create a fisheye effect."
+msgstr "Klik pada bagian gambar anda untuk membuat efek fisheye."
+
+#: ../../magic/src/flower.c:144
+msgid "Flower"
+msgstr "Bunga"
+
+#: ../../magic/src/flower.c:150
+msgid "Click and drag to draw a flower stalk. Let go to finish the flower."
+msgstr ""
+"Klik dan tarik untuk menggambar tangkai bunga. Lepaskan untuk menyelesaikan "
+"bunga."
+
+#: ../../magic/src/foam.c:114
+msgid "Foam"
+msgstr "Busa"
+
+#: ../../magic/src/foam.c:120
+msgid "Click and drag the mouse to cover an area with foamy bubbles."
+msgstr ""
+"Klik dan tarik mouse untuk meng-cover sebuah area dengan gelembung busa."
+
+#: ../../magic/src/fold.c:103
+msgid "Fold"
+msgstr "lipatan"
+
+#: ../../magic/src/fold.c:108
+msgid ""
+"Choose a background color and click to turn the corner of the page over."
+msgstr "Pilih warna latar belakang dan klik untuk mengubah sudut halaman."
+
+#: ../../magic/src/fretwork.c:176
+msgid "Fretwork"
+msgstr "Ukiran"
+
+#: ../../magic/src/fretwork.c:182
+msgid "Click and drag to draw repetitive patterns. "
+msgstr "Klik dan tarik untuk menggambar pola yang berulang. "
+
+#: ../../magic/src/fretwork.c:184
+msgid "Click to surround your picture with repetitive patterns."
+msgstr "Klik untuk mengelilingi gambar anda dengan pola yang berulang."
+
+#: ../../magic/src/glasstile.c:104
+msgid "Glass Tile"
+msgstr "Glass Tile"
+
+#: ../../magic/src/glasstile.c:111
+msgid "Click and drag the mouse to put glass tile over your picture."
+msgstr "Klik dan tarik mouse untuk menempatkan glass tile diatas gambar anda."
+
+#: ../../magic/src/glasstile.c:113
+msgid "Click to cover your entire picture in glass tiles."
+msgstr "Klik untuk menutupi seluruh gambar anda dengan glass tile."
+
+#: ../../magic/src/grass.c:107
+msgid "Grass"
+msgstr "Gores"
+
+#: ../../magic/src/grass.c:113
+msgid "Click and drag to draw grass. Don’t forget the dirt!"
+msgstr "Klik dan pindahkan untuk menggambar rumput. Jangan lupa kotoran!"
+
+#: ../../magic/src/halftone.c:35
+msgid "Halftone"
+msgstr "Setengah warna pokok"
+
+#: ../../magic/src/halftone.c:39
+msgid "Click and drag to turn your drawing into a newspaper."
+msgstr "Klik dan tarik untuk mengubah gambar anda menjadi koran."
+
+#: ../../magic/src/kalidescope.c:119
+msgid "Symmetric Left/Right"
+msgstr "Simetrik Kiri/Kanan"
+
+#: ../../magic/src/kalidescope.c:123
+msgid "Symmetric Up/Down"
+msgstr "Simetris Atas/Bawah"
+
+#: ../../magic/src/kalidescope.c:127
+msgid "Pattern"
+msgstr "Pola"
+
+#: ../../magic/src/kalidescope.c:131
+msgid "Tiles"
+msgstr "Tiles"
+
+#. KAL_BOTH
+#: ../../magic/src/kalidescope.c:135
+msgid "Kaleidoscope"
+msgstr "Kaledoskop"
+
+#: ../../magic/src/kalidescope.c:146
+msgid ""
+"Click and drag the mouse to draw with two brushes that are symmetric across "
+"the left and right of your picture."
+msgstr ""
+"Klik dan tarik mouse untuk mengambar dengan dua kuas yang simetris antara "
+"kiri dan kanan dari gambar anda."
+
+#: ../../magic/src/kalidescope.c:152
+msgid ""
+"Click and drag the mouse to draw with two brushes that are symmetric across "
+"the top and bottom of your picture."
+msgstr ""
+"Klik dan tarik mouse untuk menggambar dengan dua kuas yang simetris antara "
+"atas dan bawah dari gambar anda."
+
+#: ../../magic/src/kalidescope.c:156
+msgid "Click and drag the mouse to draw a pattern across the picture."
+msgstr "Klik dan tarik mouse untuk menggambarkan pola di gambar."
+
+#: ../../magic/src/kalidescope.c:160
+msgid ""
+"Click and drag the mouse to draw a pattern that is symmetric across the "
+"picture."
+msgstr ""
+"Klik dan tarik mouse untuk mengambar pola yang simetris pada seluruh gambar."
+
+#. KAL_BOTH
+#: ../../magic/src/kalidescope.c:164
+msgid ""
+"Click and drag the mouse to draw with symmetric brushes (a kaleidoscope)."
+msgstr ""
+"Klik dan tarik mouse untuk menggambar dengan kuas simetris (sebuah "
+"kaledoskop)."
+
+#: ../../magic/src/light.c:103
+msgid "Light"
+msgstr "Terangkan"
+
+#: ../../magic/src/light.c:109
+msgid "Click and drag to draw a beam of light on your picture."
+msgstr "Kilik dan tarik untuk menggambar cahaya beam pada gambar anda."
+
+#: ../../magic/src/metalpaint.c:98
+msgid "Metal Paint"
+msgstr "Metal Paint"
+
+#: ../../magic/src/metalpaint.c:105
+msgid "Click and drag the mouse to paint with a metallic color."
+msgstr "Klik dan tarik mouse untuk mengecat dengan warna metalic."
+
+#: ../../magic/src/mirror_flip.c:110
+msgid "Mirror"
+msgstr "Mirror"
+
+#: ../../magic/src/mirror_flip.c:112
+msgid "Flip"
+msgstr "Flip"
+
+#: ../../magic/src/mirror_flip.c:121
+msgid "Click to make a mirror image."
+msgstr "Klik untuk membuat mirror gambar."
+
+#: ../../magic/src/mirror_flip.c:123
+msgid "Click to flip the picture upside-down."
+msgstr "Klik untuk membalik gambar."
+
+#: ../../magic/src/mosaic.c:96
+msgid "Mosaic"
+msgstr "Mozaik"
+
+#: ../../magic/src/mosaic.c:100
+msgid ""
+"Click and drag the mouse to add a mosaic effect to parts of your picture."
+msgstr ""
+"Klik dan gerakkan mouse untuk menambahkan efek mozaik pada bagian gambar "
+"anda."
+
+#: ../../magic/src/mosaic.c:101
+msgid "Click to add a mosaic effect to your entire picture."
+msgstr "Klik untuk menambahkan efek mozaik pada seluruh gambar anda."
+
+# | msgid "Square"
+#: ../../magic/src/mosaic_shaped.c:132
+msgid "Square Mosaic"
+msgstr "Mozaik persegi"
+
+#: ../../magic/src/mosaic_shaped.c:133
+msgid "Hexagon Mosaic"
+msgstr "Mozaik Segi Lima"
+
+#: ../../magic/src/mosaic_shaped.c:134
+msgid "Irregular Mosaic"
+msgstr "Mozaik Tidak Teratur"
+
+#: ../../magic/src/mosaic_shaped.c:140
+msgid ""
+"Click and drag the mouse to add a square mosaic to parts of your picture."
+msgstr ""
+"Klik dan gerakkan mouse untuk menambahkan sebuah mozaik persegi pada bagian "
+"gambar anda."
+
+#: ../../magic/src/mosaic_shaped.c:141
+msgid "Click to add a square mosaic to your entire picture."
+msgstr "Klik untuk menambahkan mozaik persegi pada seluruh gambar anda."
+
+#: ../../magic/src/mosaic_shaped.c:145
+msgid ""
+"Click and drag the mouse to add a hexagonal mosaic to parts of your picture."
+msgstr ""
+"klik dan gerakkan mouse untuk menambahkan mozaik segi lima pada bagian "
+"gambar anda."
+
+#: ../../magic/src/mosaic_shaped.c:146
+msgid "Click to add a hexagonal mosaic to your entire picture."
+msgstr "Klik untuk menambahkan mozaik segi lima pada seluruh gambar anda."
+
+#: ../../magic/src/mosaic_shaped.c:150
+msgid ""
+"Click and drag the mouse to add an irregular mosaic to parts of your picture."
+msgstr ""
+"Klik dan gerakkan mouse untuk menambahkan mozaik tidak teratur pada bagian "
+"gambar anda."
+
+#: ../../magic/src/mosaic_shaped.c:151
+msgid "Click to add an irregular mosaic to your entire picture."
+msgstr "Klik untuk menambahkan mozaik tidak teratur pada seluruh gambar anda."
+
+#: ../../magic/src/negative.c:94
+msgid "Negative"
+msgstr "Negatif"
+
+# | msgid "Click and move the mouse around to draw a negative."
+#: ../../magic/src/negative.c:101
+msgid "Click and drag the mouse around to make your painting negative."
+msgstr ""
+"Klik dan gerakkan mouse disekitar gambar untuk membuat negatis dari lukisan "
+"anda."
+
+#: ../../magic/src/negative.c:103
+msgid "Click to turn your painting into its negative."
+msgstr "Klik untuk mengubah lukisan anda menjadi negatif."
+
+#: ../../magic/src/noise.c:66
+msgid "Noise"
+msgstr "Noise"
+
+#: ../../magic/src/noise.c:70
+msgid "Click and drag the mouse to add noise to parts of your picture."
+msgstr ""
+"Klik dan gerakkan mouse untuk menambahkan noise pada bagian gambar anda."
+
+#: ../../magic/src/noise.c:71
+msgid "Click to add noise to your entire picture."
+msgstr "Klik untuk menambahkan noise pada seluruh gambar anda."
+
+#: ../../magic/src/perspective.c:147
+msgid "Perspective"
+msgstr "Perspektif"
+
+#: ../../magic/src/perspective.c:148
+msgid "Zoom"
+msgstr "Zoom"
+
+#: ../../magic/src/perspective.c:153
+msgid "Click on the corners and drag where you want to stretch the picture."
+msgstr "Klik pada sudut gambar dan tarik kemana saja untuk melebarkan gambar."
+
+#: ../../magic/src/perspective.c:156
+msgid "Click and drag up to zoom in or drag down to zoom out the picture."
+msgstr ""
+"Klik dan tarik ke atas untuk memperbesar gambar atau kebawah untuk "
+"memperkecil gambar."
+
+#: ../../magic/src/puzzle.c:103
+msgid "Puzzle"
+msgstr "Puzzle"
+
+#: ../../magic/src/puzzle.c:110
+msgid "Click the part of your picture where would you like a puzzle."
+msgstr "Klik pada bagian gambar anda untuk merubahnya seperti puzzle."
+
+#: ../../magic/src/puzzle.c:111
+msgid "Click to make a puzzle in fullscreen mode."
+msgstr "Klik untuk membuat puzzle pada mode layar penuh."
+
+#: ../../magic/src/rails.c:129
+msgid "Rails"
+msgstr "Rails"
+
+#: ../../magic/src/rails.c:134
+msgid "Click and drag to draw train track rails on your picture."
+msgstr "Klik dan tarik untuk menggambar rel kereta api pada gambar anda."
+
+#: ../../magic/src/rainbow.c:133
+msgid "Rainbow"
+msgstr "Pelangi"
+
+#: ../../magic/src/rainbow.c:139
+msgid "You can draw in rainbow colors!"
+msgstr "Kamu dapat menggambar dengan warna pelangi!"
+
+#: ../../magic/src/rain.c:68
+msgid "Rain"
+msgstr "Hujan"
+
+#: ../../magic/src/rain.c:72
+msgid "Click to place a rain drop onto your picture."
+msgstr "Klik untuk menempatkan rintik hujan pada gambar anda."
+
+#: ../../magic/src/rain.c:73
+msgid "Click to cover your picture with rain drops."
+msgstr "Klik untuk menutupi gambar anda dengan rintik hujan."
+
+# | msgid "Rainbow"
+#: ../../magic/src/realrainbow.c:98
+msgid "Real Rainbow"
+msgstr "Pelangi Sesungguhnya"
+
+# | msgid "Rainbow"
+#: ../../magic/src/realrainbow.c:100
+msgid "ROYGBIV Rainbow"
+msgstr "Pelangi Mejikuhibiniu"
+
+#: ../../magic/src/realrainbow.c:108
+msgid ""
+"Click where you want your rainbow to start, drag to where you want it to "
+"end, and then let go to draw a rainbow."
+msgstr ""
+"Klik dimana anda ingin memulai pelangi, tarik ke mana anda ingin berakhir, "
+"dan selanjutnya lepaskan untuk menggambar pelangi."
+
+#: ../../magic/src/ripples.c:102
+msgid "Ripples"
+msgstr "Riak"
+
+#: ../../magic/src/ripples.c:108
+msgid "Click to make ripples appear over your picture."
+msgstr "Klik untuk membuat riak pada gambar anda."
+
+#: ../../magic/src/rosette.c:115
+msgid "Rosette"
+msgstr "Rosette"
+
+#: ../../magic/src/rosette.c:117
+msgid "Picasso"
+msgstr "Picasso"
+
+#: ../../magic/src/rosette.c:123
+msgid "Click and start drawing your rosette."
+msgstr "Klik dan mulai menggambar rosette anda."
+
+#: ../../magic/src/rosette.c:125
+msgid "You can draw just like Picasso!"
+msgstr "Anda dapat menggambar seperti Picasso!"
+
+#: ../../magic/src/sharpen.c:76
+msgid "Edges"
+msgstr "Tepi"
+
+#: ../../magic/src/sharpen.c:77
+msgid "Sharpen"
+msgstr "Mempertajam"
+
+#: ../../magic/src/sharpen.c:78
+msgid "Silhouette"
+msgstr "Siluet"
+
+#: ../../magic/src/sharpen.c:82
+msgid "Click and drag the mouse to trace edges in parts of your picture."
+msgstr "Klik dan gerakkan mouse untuk melacak tepian pada bagian gambar anda."
+
+#: ../../magic/src/sharpen.c:83
+msgid "Click to trace edges in your entire picture."
+msgstr "Klik untuk melacak tepian pada seluruh gambar anda."
+
+#: ../../magic/src/sharpen.c:84
+msgid "Click and drag the mouse to sharpen parts of your picture."
+msgstr "Klik dan gerakkan mouse untuk mempertajam bagian dari gambar anda."
+
+#: ../../magic/src/sharpen.c:85
+msgid "Click to sharpen the entire picture."
+msgstr "Klik untuk mempertajam seluruh gambar."
+
+#: ../../magic/src/sharpen.c:86
+msgid "Click and drag the mouse to create a black and white silhouette."
+msgstr "Klik dan gerakkan mouse untuk membuat sebuah siluet hitam dan putih."
+
+#: ../../magic/src/sharpen.c:87
+msgid "Click to create a black and white silhouette of your entire picture."
+msgstr ""
+"Klik untuk membuat sebuah sliuet hitam dan putih pada seluruh gambar anda."
+
+#: ../../magic/src/shift.c:106
+msgid "Shift"
+msgstr "Shift"
+
+#: ../../magic/src/shift.c:112
+msgid "Click and drag to shift your picture around on the canvas."
+msgstr "Klik dan tarik untuk menggeser gambar anda disekitar kanvas."
+
+#: ../../magic/src/smudge.c:102
+msgid "Smudge"
+msgstr "Smudge"
+
+#. if (which == 1)
+#: ../../magic/src/smudge.c:104
+msgid "Wet Paint"
+msgstr "Wet Paint"
+
+#: ../../magic/src/smudge.c:111
+msgid "Click and drag the mouse around to smudge the picture."
+msgstr "Klik dan pindahkan mouse ke sekitar untuk membuat noda pada gambar."
+
+#. if (which == 1)
+#: ../../magic/src/smudge.c:113
+msgid "Click and drag the mouse around to draw with wet, smudgy paint."
+msgstr ""
+"Klik dan gerakkan mouse disekitar gambar untuk mengammbar dengan wet, smudgy "
+"paint."
+
+#: ../../magic/src/snow.c:71
+msgid "Snow Ball"
+msgstr "Bola Salju"
+
+#: ../../magic/src/snow.c:72
+msgid "Snow Flake"
+msgstr "Serpihan Salju"
+
+#: ../../magic/src/snow.c:76
+msgid "Click to add snow balls to your picture."
+msgstr "Klik untuk menambahkan bola salju pada gambar anda."
+
+#: ../../magic/src/snow.c:77
+msgid "Click to add snow flakes to your picture."
+msgstr "Klik untuk menambahkan serpihan salju pada gambar anda."
+
+#: ../../magic/src/string.c:129
+msgid "String edges"
+msgstr "String edges"
+
+#: ../../magic/src/string.c:132
+msgid "String corner"
+msgstr "String corner"
+
+#: ../../magic/src/string.c:135
+msgid "String 'V'"
+msgstr "String 'V'"
+
+#: ../../magic/src/string.c:147
+msgid ""
+"Click and drag to draw string art. Drag top-bottom to draw less or more "
+"lines, left or right to make a bigger hole."
+msgstr ""
+"Klik dan Tarik untuk menggambar string art. Tarik keatas-bawah untuk "
+"menggambar lebih sedikit atau lebih banyak baris, kiri atau kanan untuk "
+"untuk membuat lubang besar."
+
+#: ../../magic/src/string.c:150
+msgid "Click and drag to draw arrows made of string art."
+msgstr "Klik dan tarik untuk mengambarkan panah yang terbuat dari string art."
+
+#: ../../magic/src/string.c:153
+msgid "Draw string art arrows with free angles."
+msgstr "Menggambar panah string art dengan sudut bebas."
+
+#: ../../magic/src/tint.c:74
+msgid "Tint"
+msgstr "Tipis"
+
+#: ../../magic/src/tint.c:75
+msgid "Color & White"
+msgstr "Warna dan Putih"
+
+#: ../../magic/src/tint.c:79
+msgid ""
+"Click and drag the mouse around to change the color of parts of your picture."
+msgstr ""
+"klik dan gerakkan mouse disekitar gambar untuk merubah warna pada bagian "
+"gambar anda."
+
+#: ../../magic/src/tint.c:80
+msgid "Click to change the color of your entire picture."
+msgstr "Klik untuk mengubah warna pada seluruh gambar anda."
+
+#: ../../magic/src/tint.c:81
+msgid ""
+"Click and drag the mouse around to turn parts of your picture into white and "
+"a color you choose."
+msgstr ""
+"Klik dan gerakkan mouse disekitar gambar untuk merubah bagian gambar anda "
+"menjadi putih dan sebuah warna yang anda pilih."
+
+#: ../../magic/src/tint.c:82
+msgid "Click to turn your entire picture into white and a color you choose."
+msgstr ""
+"Klik untuk merubah seluruh gambar menjadi putih dan sebuah warna yang anda "
+"pilih."
+
+#: ../../magic/src/toothpaste.c:68
+msgid "Toothpaste"
+msgstr "Pasta gigi"
+
+#: ../../magic/src/toothpaste.c:72
+msgid "Click and drag to squirt toothpaste onto your picture."
+msgstr "Klik dan tarik untuk menyemprotkan pasta gigi pada gambar anda."
+
+#: ../../magic/src/tornado.c:153
+msgid "Tornado"
+msgstr "Tornado"
+
+#: ../../magic/src/tornado.c:159
+msgid "Click and drag to draw a tornado funnel on your picture."
+msgstr "Klik dan tarik untuk mengambarkan sebuah tornado pada gambar anda."
+
+#: ../../magic/src/tv.c:96
+msgid "TV"
+msgstr "TV"
+
+#: ../../magic/src/tv.c:102
+msgid ""
+"Click and drag to make parts of your picture look like they are on "
+"television."
+msgstr ""
+"Klik dan tarik untuk membuat bagian dari gambar anda terlihat seperti berada "
+"pada televisi."
+
+#: ../../magic/src/tv.c:105
+msgid "Click to make your picture look like it's on television."
+msgstr "Klik untuk membuat gambar anda terlihat seperti di televisi."
+
+#: ../../magic/src/waves.c:104
+msgid "Waves"
+msgstr "Gelombang"
+
+#: ../../magic/src/waves.c:106
+msgid "Wavelets"
+msgstr "Gelombang Kecil"
+
+#: ../../magic/src/waves.c:115
+msgid ""
+"Click to make the picture horizontally wavy. Click toward the top for "
+"shorter waves, the bottom for taller waves, the left for small waves, and "
+"the right for long waves."
+msgstr ""
+"Klik untuk membuat gambar horizontal bergelombang. Klik ke arah atas untuk "
+"gelombang pendek, ke bawah untuk gelombang tinggi, ke kiri untuk gelombang "
+"kecil, dan ke kanan untuk gelombang panjang."
+
+#: ../../magic/src/waves.c:118
+msgid ""
+"Click to make the picture vertically wavy. Click toward the top for shorter "
+"waves, the bottom for taller waves, the left for small waves, and the right "
+"for long waves."
+msgstr ""
+"Klik untuk membuat gambar vertikal bergelombang. Klik ke arah atas untuk "
+"gelombang pendek, ke bawah untuk gelombang tinggi, ke kiri untuk gelombang "
+"kecil, dan ke kanan untuk gelombang panjang."
+
+# | msgid "Colors"
+#: ../../magic/src/xor.c:93
+msgid "Xor Colors"
+msgstr "Warna Xor"
+
+#: ../../magic/src/xor.c:99
+msgid "Click and drag to draw a XOR effect"
+msgstr "Klik dan tarik untuk menggambar sebuah efek XOR"
+
+#: ../../magic/src/xor.c:101
+msgid "Click to draw a XOR effect on the whole picture"
+msgstr "Klik untuk menggambarkan sebuah efek XOR pada seluruh gambar"
